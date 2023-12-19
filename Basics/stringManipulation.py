@@ -36,3 +36,32 @@ g = "Hey, there"
 print(g[2:5])
 
 #negative indexing - used to start slicing from the end
+
+#upper() - returns string to uppercase
+a = "Hey"
+print(a.upper())
+
+#lower() - retyrns str to lowercase
+b = "ddouble"
+print(b.lower())
+
+#strip() - remove any whitespaces
+c = "bring coffee "
+print(c.strip())
+
+#replace - replace a string with another string
+d = "Alot apoth"
+print(d.replace("A", "H"))
+
+#split() - splits a string into substrings
+e = "master code online"
+print(a.split())
+
+#concatenate - combine two strings using +
+f = "Hello"
+g = "Will"
+h = f + " " + g
+print(h)
+
+#read on escape characters
+#string methods - https://www.w3schools.com/python/python_strings_methods.asp

@@ -1,6 +1,6 @@
 #python is a programming language, created by Guido van Rossum, 
 #used for server side web development, software development, mathematics, etc
-#csingle line comment
+#single line comment
 '''
 multiple lines comments
 comments on more lines

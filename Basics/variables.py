@@ -5,6 +5,7 @@ variables are created when you assign a value to it
 
 #example
 name = "Mildred"
+Name = "Mildred"
 
 z = 2.1
 
@@ -43,6 +44,10 @@ print(g)
 #global variables- created outside the function, can be accessed from anywhere
 x = "basics"
 
+def anotherFuction():
+  print("Learning basics")
+  
+anotherFuction()
 def myfunction():
   print("Welcome to learning python " + x)
 

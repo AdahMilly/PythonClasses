@@ -26,12 +26,13 @@ name = "Mildred"
 
 #list - sequence data type used to store the collection of data, it is mutable
 x= ["apple", "banana", "cherry"]
+print(x[0])
 
 #tuple - collection of objects separated by commas, it is immutable
 x=("apple", "banana", "cherry")
 
 #dict - used to store data in key value pairs
-x = {"name" : "John", "age" : 36}
+x = {"name" : "John", "age" : 36, "gender": "M"}
 
 #set - a collection which is unordered, unchangeable*, and unindexed.
 x = {"apple", "banana", "cherry"}
